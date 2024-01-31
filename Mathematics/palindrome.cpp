@@ -1,9 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int p = 11;
+    int p = 1231;
     int ld =0;
-    int rn=p;
+    int rn=0;
+    int dn=p;
     while(p>0){
         ld = p%10;
        
@@ -11,7 +12,7 @@ int main(){
          p = p/10;
     }
     cout<<"the value of rn"<<rn<<endl;
-    if(abs(rn-p) != 0){
+    if(abs(rn-dn) != 0){
         cout<<"it is not palindrome "<<endl;
 
     }
